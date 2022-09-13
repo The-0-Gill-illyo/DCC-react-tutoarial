@@ -17,7 +17,7 @@ const EntriesChartTracker = (props) => {
     return (
         <Chart
         chartType="LineChart"
-        data={[["Date, Weight"], ...chartData]}
+        data={[["Date", "Weight"], ...chartData]}
         width="100%"
         height="400px"
         legendToggle
